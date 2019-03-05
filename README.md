@@ -20,24 +20,20 @@ var mk = new mkEditor({
   autoDownloadFontAwesome: true,
 });
 
+初期化時に使用する引数  
 
-
-
-
-
-初期化時に使用する引数
 |Name|Description|
 |:---|:---|
-|element|エディタを展開するエレメントのIDを指定する。(型:str)|
-|toolbar_position|ツールバーの位置を指定する。種類:[`top`, `right`, `bottom`, `left`]。デフォルト:`top`。(型:str)|
-|toolbar|表示するアイテムを配列で指定する|
-|addToolbar_item|標準のアイテム以外を追加する|
-|deactivate_item|非表示にしたいアイテムを配列で渡す|
-|theme|エディターのテーマを指定する。種類:別表1。デフォルト:`xcode`。(型:str)|
-|autoDownloadFontAwesome|FontAwesomeをダウンロードするかどうかの判定。デフォルト:`true`。(型:bool)|
-|autoDownloadMookMDE_CSS|CSSをダウンロードするかどうかの判定。デフォルト:`false`。(型:bool)|
-|MookMDE_CSS_Path|CSSファイルの格納場所を指定する。未指定の場合は`css/mookMDE.css`を読み込む。(型:str)|
-|automkEditorAddCSSText|CSSをスタイルタグでヘッダに追加する。デフォルト:`true`(型:bool)|
+| element |エディタを展開するエレメントのIDを指定する。(型:str)|
+| toolbar_position|ツールバーの位置を指定する。種類:[`top`, `right`, `bottom`, `left`]。デフォルト:`top`。(型:str)|
+| toolbar|表示するアイテムを配列で指定する|
+| addToolbar_item|標準のアイテム以外を追加する|
+| deactivate_item|非表示にしたいアイテムを配列で渡す|
+| theme|エディターのテーマを指定する。種類:別表1。デフォルト:`xcode`。(型:str)|
+| autoDownloadFontAwesome|FontAwesomeをダウンロードするかどうかの判定。デフォルト:`true`。(型:bool)|
+| autoDownloadMookMDE_CSS|CSSをダウンロードするかどうかの判定。デフォルト:`false`。(型:bool)|
+| mkEditor_CSS_Path|CSSファイルの格納場所を指定する。未指定の場合は`css/mookMDE.css`を読み込む。(型:str)|
+| automkEditorAddCSSText|CSSをスタイルタグでヘッダに追加する。デフォルト:`true`(型:bool)|
 
 
 
